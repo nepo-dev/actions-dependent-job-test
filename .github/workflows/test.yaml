@@ -16,6 +16,7 @@ jobs:
   step-two:
     name: Step two
     runs-on: ubuntu-latest
+    environment: human-check
     needs: step-one
     steps:
       - name: Run test
